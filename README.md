@@ -2,45 +2,45 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+- A site where a user can see details about a wide range of vacations around the world can track a vacation, and at the same time see how many users are already        following a vacation.
+- User registration and user authentication.
+- Admin dashboard where you can edit add and delete vacations, a bar graph showing
+the number of followers per vacation.
+- All registered users receive real-time updates on the number of followers, details on
+The vacations, and the resumption or deletion of vacations.
+  
+## Requirements:
+- Node.js
+- npm package manager
+- an IDE - integrated development environment.
+- MySQL Workbench
 
-In the project directory, you can run:
 
-### `npm start`
+##  Setup client
+- You have downloaded the client folder.
+- open it on your IDE.
+- In The Terminal run the command "npm install". Which will install the dependencies. 
+-  in order to run client use npm command "npm run".
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## setup server
+- You have downloaded the client folder.
+- open it on your IDE.
+- In The Terminal run the command "npm install". Which will install the dependencies. 
+- in the terminal use the command "node app.js" in order to run the server.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## setup db
+- add db schema to your MySQL Workbench.
+- in the server go to the dao folder. than go to the connection-wrapper.js file.
+- Fill in your username and password information on a database server
+-   host: "localhost", // Computer
+  user: // Username
+  password:// Password
+  database: "vacations", // Database name
+- 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
