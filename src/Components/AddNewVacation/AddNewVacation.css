@@ -1,0 +1,113 @@
+.title-label {
+  margin-top: 30x;
+}
+
+.title-input {
+  margin-top: 30x;
+  border-radius: 4px;
+  border: 2px solid grey;
+  width: 200px;
+  margin-right: 60px;
+  margin-left: 70px;
+}
+
+.dest-label {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.dest-input {
+  margin-top: 5px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 60px;
+  margin-left: 10px;
+}
+
+.desc-label {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.desc-input {
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 2px solid grey;
+  margin-left: 20px;
+  width: 200px;
+  height: 100px;
+  vertical-align: middle;
+  inset-block: middle;
+  margin-right: 60px;
+  margin-left: 10px;
+}
+
+.price-label {
+  margin-top: 5px;
+  margin-right: 35px;
+}
+
+.price-input {
+  margin-top: 10px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 35px;
+  margin-left: 30px;
+}
+
+.start-date-label {
+  margin-top: 5px;
+  margin-right: 35px;
+}
+
+.start-date-input {
+  margin-top: 10px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 35px;
+  margin-left: -10px;
+}
+
+.end-date-label {
+  margin-top: 5px;
+  margin-right: 35px;
+}
+
+.end-date-input {
+  margin-top: 10px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 35px;
+  margin-left: -5px;
+ 
+}
+
+.choose-file-label{
+  margin-right: 46px;
+  margin-bottom: 10px;
+
+}
+
+
+.choose-file-input{
+  border: 2px solid grey;
+  border-radius: 4px;
+  width: 210px;
+  margin-right: 20px;
+  margin-left: -15px;
+  margin-bottom: 10px;
+
+}
+.submit{
+  float: left;
+
+}
+
+.add-vacation-btn{
+  float: right;
+
+}

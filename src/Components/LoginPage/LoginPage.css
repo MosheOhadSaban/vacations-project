@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Kaushan+Script&display=swap");
+
+.LoginPage{
+    width: 400px;
+    margin-top: 250px;
+    
+}
+
+.LoginPage .register-link{
+   margin-top: 10px;
+}
