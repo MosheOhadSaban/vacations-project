@@ -20,7 +20,7 @@ The vacations, and the resumption or deletion of vacations.
 - You have downloaded the client folder.
 - open it on your IDE.
 - In The Terminal run the command "npm install". Which will install the dependencies. 
--  in order to run client use npm command "npm run".
+-  in order to run client use npm command "npm start".
 
 ## setup server
 - You have downloaded the client folder.
